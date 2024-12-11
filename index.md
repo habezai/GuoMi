@@ -1,5 +1,5 @@
 ---
-title: Home
+title: 主页
 layout: home
 ---
 # SM3
