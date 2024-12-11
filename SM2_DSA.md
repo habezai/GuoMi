@@ -31,7 +31,9 @@ math: mathjax
 于是 $$ENTL_A$$ = 0x0080  
 
 
-- 定义$$Z_A  = H_{256}(ENTL _A|| ID_A || a || b || x_G || y_G|| x_A || y_A )$$ 即做 **SM3** 摘要。 
+定义
+$$Z_A  = H_{256}(ENTL _A|| ID_A || a || b || x_G || y_G|| x_A || y_A )$$
+ 即做一次 **SM3** 摘要。 
  
 1. 置 $$ \overline{M} = Z_A || M $$   
 2. 计算 哈希值 $$ e = H_v(\overline{M}) $$ 即再做一次 SM3.  
