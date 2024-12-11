@@ -8,7 +8,7 @@ math: katex
 # SM2推荐椭圆曲线参数如下：
 
 使用素数域256位椭圆曲线
-椭圆曲线方程：$y2 = x3 + ax + b$
+椭圆曲线方程：$$y2 = x3 + ax + b$$
 
 p= FFFFFFFE FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF 00000000 FFFFFFFF FFFFFFFF
 
@@ -35,8 +35,8 @@ Gy= BC3736A2 F4F6779C 59BDCEE3 6B692153 D0A9877C C62A4740 02DF32E5 2139F0A0
 
 1. 验证 P不是 无穷远点 O  
 2. 验证 P的坐标（xp,yp) 都是 区间 [0，p-1]中的整数  
-3. 验证 $$Y_p^{2}  \equiv x_p^{3} + a x_p + b (mod \ p)$$  
-4. 验证 $$ nP = O $$  
+3. 验证 $Y_p^{2}  \equiv x_p^{3} + a x_p + b (mod \ p)$  
+4. 验证 $ nP = O $
 5. 只有通过所有验证，才输出‘有效’，否则输出’无效‘  
 
 # SM2数字签名
