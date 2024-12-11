@@ -1,7 +1,7 @@
 ---
 title: SM2密钥生成以及数字签名
 layout: default
-math: mathjax
+math: katex
 ---
 
 # SM2 密钥对的生成和公钥的验证
