@@ -12,6 +12,6 @@ layout: home
 - [SM2密钥生成以及数字签名]
 
 # SM9
-- [暂无]
+- [待添加]
 
 [SM2密钥生成以及数字签名]: https://habezai.github.io/GuoMi/SM2_DSA
