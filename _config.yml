@@ -2,11 +2,11 @@ title: GuoMi Introduction
 
 description: Habezai的国密算法介绍
 
+math: mathjax
+
 theme: just-the-docs 
 
 url: https://habezai.github.io/GuoMi/
 
 aux_links:
   本项目的Repository: https://github.com/habezai/GuoMi/
-
-math: mathjax
