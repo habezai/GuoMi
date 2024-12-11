@@ -1,8 +1,10 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: GuoMi Introduction
+
+description: Habezai的国密算法介绍
+
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://habezai.github.io/GuoMi
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  本项目的Repository: https://github.com/habezai/GuoMi
