@@ -9,7 +9,7 @@ math: katex
 
 使用素数域256位椭圆曲线
 椭圆曲线方程：
-$y2 = x3 + ax + b$
+$$y2 = x3 + ax + b$$
 
 $$
 p= FFFFFFFE FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF 00000000 FFFFFFFF FFFFFFFF \\
@@ -38,7 +38,7 @@ $$
 
 1. 验证 P不是 无穷远点 O  
 2. 验证 P的坐标（xp,yp) 都是 区间 [0，p-1]中的整数  
-3. 验证 $Y_p^{2}  \equiv x_p^{3} + a x_p + b (mod \ p)$  
+3. 验证 $$Y_p^{2}  \equiv x_p^{3} + a x_p + b (mod \ p)$$  
 4. 验证 $ nP = O $
 5. 只有通过所有验证，才输出‘有效’，否则输出’无效‘  
 
